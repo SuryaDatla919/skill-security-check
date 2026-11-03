@@ -1,0 +1,10 @@
+[
+  {
+    "id": "example-private-rule",
+    "severity": "CAUTION",
+    "pattern": "example-internal-marker",
+    "flags": "i",
+    "description": "EXAMPLE ONLY. Copy this file to your private rules location (see the README) and replace it with your own organization-specific indicators. This harmless rule flags the literal string 'example-internal-marker' so you can confirm the overlay loads. It detects nothing real.",
+    "appliesTo": ["*"]
+  }
+]

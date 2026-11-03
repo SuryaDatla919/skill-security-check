@@ -1,0 +1,33 @@
+{
+  "name": "skill-security-check",
+  "version": "1.0.0",
+  "description": "A scanner and review procedure that vets third-party AI agent skills, plugins and similar folders before anyone installs them. Public generic checks, a private rules overlay, deny-by-default. Zero dependencies.",
+  "type": "module",
+  "bin": {
+    "skill-check": "bin/skill-check.mjs"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "license": "MIT",
+  "keywords": [
+    "security",
+    "scanner",
+    "ai-agents",
+    "skills",
+    "supply-chain",
+    "static-analysis"
+  ],
+  "files": [
+    "bin/",
+    "src/",
+    "rules/",
+    "SKILL.md",
+    "README.md",
+    "SECURITY.md",
+    "LICENSE"
+  ]
+}

@@ -1,0 +1,16 @@
+# Private rules overlay must NEVER be committed.
+# It lives outside any repo; this guard is defense in depth.
+# The only exception is the shipped, harmless example file.
+private-rules*.json
+!rules/private-rules.example.json
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
